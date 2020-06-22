@@ -13,7 +13,7 @@ Add `auth0_tesla` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:auth0_tesla, "https://github.com/ReelCoaches/auth0_tesla.git"}
+    {:auth0_tesla, git: "https://github.com/ReelCoaches/auth0_tesla.git"}
   ]
 end
 ```
