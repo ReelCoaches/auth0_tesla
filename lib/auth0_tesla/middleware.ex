@@ -3,7 +3,6 @@ defmodule Auth0Tesla.Middleware do
 
   @middleware [
     Tesla.Middleware.JSON,
-    Tesla.Middleware.Logger,
     Tesla.Middleware.Retry
   ]
 
